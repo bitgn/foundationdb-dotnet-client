@@ -10,5 +10,5 @@ dotnet: 2.0.0
 
 script:
   - dotnet restore
-  - dotnet build
-  - dotnet test
+  - dotnet build ./FoundationDB.Client.sln
+  - dotnet test ./FoundationDB.Client.sln
