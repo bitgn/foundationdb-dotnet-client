@@ -1,15 +1,15 @@
 language: csharp
 
 os:
- - linux
- dist: trusty
- sudo: required
+  - linux
+  dist: trusty
+  sudo: required
 
 mono: none
 
 dotnet: 2.0.0
 
 script:
- - dotnet restore
- - dotnet build
- - dotnet test
+  - dotnet restore
+  - dotnet build
+  - dotnet test
